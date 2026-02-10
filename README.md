@@ -12,7 +12,7 @@ This project implements a full analytics pipeline designed to quantify customer 
 
 Architecture Overview
 
-"Pipeline Architecture" (images/architecture_pipeline.png)
+![Pipeline Architecture](images/architecture_pipeline.png)
 
 ---
 
@@ -106,6 +106,17 @@ Dashboard Highlights
 - Revenue vs churn loss comparison
 - Retention strategy impact simulation
 
+## Dashboard Screenshots
+
+### CLV Overview
+![Page1](images/page1.png)
+### Retention Analysis
+![Page2](images/page2.png)
+### Strategy Simulation
+![Page3](images/page3.png)
+### Tooltip Detail
+![Tooltip](images/page2_tooltip.png)
+
 ---
 
 Financial Impact Modeling
@@ -130,10 +141,18 @@ images/    → Visualization screenshots
 
 ---
 
-Strategic Outcome
+## Business Impact Summary
 
-This workflow transforms churn analysis from descriptive reporting into revenue-focused decision support. By quantifying value at risk and modeling retention impact, the project enables prioritization of intervention strategies based on financial return rather than churn volume — aligning analytics outputs with executive planning objectives.
+This project applies Customer Lifetime Value (CLV) forecasting to support
+data-driven retention and profitability decisions.
 
+- Forecasts customer value trajectories to quantify long-term revenue potential
+- Identifies value-at-risk through churn probability and contract segmentation
+- Evaluates retention scenarios based on incremental CLV preservation
+- Enables prioritization of high-impact customer segments using economic value signals
+
+This mirrors analytical workflows used in subscription and telecom industries
+where CLV forecasting guides retention investment and customer strategy.
 ---
 
 Reproducibility
@@ -141,11 +160,12 @@ Reproducibility
 To replicate this project:
 
 1. Download dataset from Kaggle
-2. Execute SQL script in "/sql/"
-3. Open Excel model in "/excel/"
-4. Load dataset into Power BI file in "/powerbi/"
+2. Execute SQL script in '/sql/'
+3. Open Excel model in '/excel/'
+4. Load dataset into Power BI file in '/powerbi/'
 5. Refresh visuals
 
 All required assets are included in the repository.
 
 ---
+
