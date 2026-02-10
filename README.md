@@ -151,8 +151,6 @@ data-driven retention and profitability decisions.
 - Evaluates retention scenarios based on incremental CLV preservation
 - Enables prioritization of high-impact customer segments using economic value signals
 
-This mirrors analytical workflows used in subscription and telecom industries
-where CLV forecasting guides retention investment and customer strategy.
 ---
 
 Reproducibility
@@ -168,4 +166,5 @@ To replicate this project:
 All required assets are included in the repository.
 
 ---
+
 
