@@ -87,13 +87,12 @@ Built a scenario simulator with three churn reduction assumptions applied to Pla
 
 ### 6. Power BI Dashboard (3 pages)
 - **Page 1 — CLV Overview**: Segment value distribution, churn rate by tier, KPI cards
-- ![Page1](images/page1.png)
+![Page1](images/page1.png)
 - **Page 2 — Retention Analysis**: Revenue vs churned revenue by segment, churn by contract type, average CLV by contract
-- ![Page2](images/page2.png)
-- **Page 3 — Strategy Simulation**: Scenario comparison, projected CLV saved by segment and contract type
-- ![Page3](images/page3.png)
-- **Tooltip Detail
--![Tooltip](images/page2_tooltip.png)
+![Page2](images/page2.png)
+- **Page 3 — Strategy Simulation**: Scenario comparison, projected CLV saved by segment and contract type ![Page3](images/page3.png)
+-Tooltip Detail
+![Tooltip](images/page2_tooltip.png)
 ---
 
 ## Key Findings
